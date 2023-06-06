@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x86.zip'
 $url64      = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x64.zip'
