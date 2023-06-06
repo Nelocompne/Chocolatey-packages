@@ -1,11 +1,19 @@
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x86.zip'
-$url64      = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x64.zip'
+
+if (Test-Connection -ComputerName google.com -Quiet -Count 1) {
+  $url = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x86.zip'
+  $url64 = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x64.zip'
+}
+else {
+  $url = 'https://download.fgit.ml/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x86.zip'
+  $url64 = 'https://download.fgit.ml/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.2/BaiduPCS-Go-v3.9.2-windows-x64.zip'
+}
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
+  fileType      = 'exe'
   url           = $url
   url64bit      = $url64
   checksum      = 'dd6f99e49108b95ad2dc6e3c9f943892a5f0f835deed9133313a78ca7cc8fdc9'
@@ -14,4 +22,4 @@ $packageArgs = @{
   checksumType64= 'sha256'
 }
 
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyZipPackage @packageArgs

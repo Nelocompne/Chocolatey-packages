@@ -8,13 +8,12 @@
     <authors>qjfoidnh</authors>
     <projectUrl>https://github.com/qjfoidnh/BaiduPCS-Go</projectUrl>
     <licenseUrl>https://github.com/qjfoidnh/BaiduPCS-Go/blob/main/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <docsUrl>https://github.com/qjfoidnh/BaiduPCS-Go#%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8%E5%8F%8A%E8%AF%B4%E6%98%8E</docsUrl>
     <tags>baidupcs-go baidupcs</tags>
     <summary>CLI baidupcs client</summary>
     <description>仿 Linux shell 文件处理命令的百度网盘命令行客户端
     
-    iikira/BaiduPCS-Go was largely inspired by GangZhuo/BaiduPCS and this project was largely based on iikira/BaiduPCS-Go</description>
+iikira/BaiduPCS-Go was largely inspired by GangZhuo/BaiduPCS and this project was largely based on iikira/BaiduPCS-Go</description>
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/tatsuhiro-t/aria2/releases/)
@@ -22,7 +21,6 @@
 #### Package
 * Automatically built and uploaded by [Minn](https://community.chocolatey.org/profiles/Kawii4minn)
 * Package not up-to-date after a few days ? [Create an issue](https://github.com/Nelocompne/Chocolatey-packages/issues/new/choose)</releaseNotes>
-    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
