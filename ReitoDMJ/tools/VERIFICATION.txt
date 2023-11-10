@@ -1,0 +1,8 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download: https://dist.reito.fun/birth/%E5%BC%B9%E5%B9%95%E5%A7%AC.zip
+
+checksum type: sha256
+  checksum: E445B15BF88F8F2122765D9A230C451F9D86D3C1BBC5DA6D96C5B89E90C48ECE

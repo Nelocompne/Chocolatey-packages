@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>reitodmj</id>
+    <version>1.3.5</version>
+    <title>ReitoDMJ</title>
+    <authors>Reito</authors>
+    <projectUrl>https://reito.fun/blive</projectUrl>
+    <iconUrl>https://dist.reito.fun/bliveassist/icon.png</iconUrl>
+    <projectSourceUrl>https://reito.fun/</projectSourceUrl>
+    <tags>reitodmj blive bilibili</tags>
+    <description>一个优化视觉体验的B站弹幕姬，可延长每条弹幕在屏幕上的停留时间，Superchat与礼物感谢标记、自动保存加载未感谢条目。
+    
+    基于Unity</description>
+    <releaseNotes>
+1.3.5
+支持红包
+面捕有线连接
+1.3.4
+重制更新系统，推荐升级！
+1.3.3
+1. 新增：弹幕(列表)可以不折叠重复弹幕
+2. 新增：弹幕(列表)与弹幕(滚动)可以屏蔽所有表情弹幕
+3. 新增：主播可以自定义自己房间在弹幕姬中的一些元素，如用Logo替代历史记录中的文字 前往体验
+4. 修复：布局保存问题
+5. 修复：全面屏适配
+1.3.1
+1. 修复：部分房间无法使用
+2. 修复：布局无法保存
+1.3.0
+1. 新增：iOS端面捕插件参数编辑器，支持导入导出，以及导入VBridger配置
+2. 新增：点击左下角数据可查看弹幕曲线，以后还会添加更多数据项
+3. 新增：长按弹幕、礼物项可以复制、查看用户名的汉语拼音
+4. 新增：主界面右上角新增中英文切换
+5. 新增：帮助-调试可以进行日志上报
+6. 优化：底部功能栏布局
+7. 优化：礼物图标
+1.2.0
+1. 重新设计了礼物显示，添加礼物图标显示，添加了进入、分享、关注直播间事件，修复价格
+2. 添加了VTube Studio插件，可以直接驱动PC端VTS实现面捕捕捉，效果几乎与VBridger一样
+3. 在设置页增加了各种自定义项
+4. 问题修复与性能优化
+1.1.3
+修复：礼物金额错误
+新增：弹幕支持各类表情
+1.1.2
+修复：针对Windows、Android平台修复弹幕事件
+1.1.1
+新增：房间历史记录
+新增：高清化字体显示
+修复：付费礼物退出不保存
+1.1.0
+新增：经典滚动弹幕窗口、高能弹幕窗口
+新增：窗口可拖动、自由布局
+新增：帮助页面添加性能优化指南
+新增：长按弹幕/Superchat可以复制到剪贴板
+优化：设置、帮助页面功能优化
+优化：优化弹幕高度，使其可以铺满屏幕高度
+优化：自动删除被房管撤回的Superchat
+优化：设置中可以调整帧率，减少性能消耗
+1.0.8
+修复拖动SC、礼物列表时消失，增加滚轮移速
+1.0.7
+修复后台暂停
+任一模块现在可被完全隐藏
+1.0.6
+修复布局保存失效
+1.0.5
+修复弹幕速度
+1.0.4
+增加显示设置
+1.0.3
+修复窗口模式粉丝勋章异常显示
+增加重复弹幕色彩提示
+增强Websocket稳定性
+1.0.2
+修复界面滑块超出屏幕
+1.0.1
+增加界面放大倍率调节
+修复若干连接问题
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
