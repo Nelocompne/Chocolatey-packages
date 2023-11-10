@@ -18,4 +18,4 @@ $packageArgs = @{
 
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
 Install-ChocolateyZipPackage @packageArgs
-Install-ChocolateyShortcut -ShortcutFilePath "$DesktopPath\MAA.lnk" -TargetPath "$(Get-ToolsLocation)\$env:ChocolateyPackageName\MAA.exe"
+Install-ChocolateyShortcut -ShortcutFilePath "$DesktopPath\MAA.lnk" -TargetPath "$toolsDir\MAA.exe"
