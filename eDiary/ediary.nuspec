@@ -1,60 +1,247 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- == PACKAGE SPECIFIC SECTION == -->
-    <!-- This section is about this package, although id and version have ties back to the software -->
-    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
-    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
     <id>ediary</id>
-    <!-- version should MATCH as closely as possible with the underlying software -->
-    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
-    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>4.2.5</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
-    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
-    <!-- ============================== -->
-
-    <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <!-- This section is about the software itself -->
     <title>eDiary (Install)</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
-    <!-- projectUrl is required for the community feed -->
+    <authors>haoxg</authors>
     <projectUrl>http://www.haoxg.net/ediary/index.html</projectUrl>
-    <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
-    <!-- Here is an example using Githack -->
-    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/ediary.png</iconUrl>-->
-    <!-- <copyright>Year Software Vendor</copyright> -->
-    <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>ediary notepad</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->
+    <description>多年过去，您经历了BBS、论坛、博客、推特、微博 ...，但在电脑的某个 角落，eDiary始终为你守护发自你内心的声音。
 
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
-    <!-- chocolatey-core.extension - https://community.chocolatey.org/packages/chocolatey-core.extension -->
+　　eDiary的作用不仅仅在于写日记，您也可以用它来记流水帐、写工作日志， 记录学习心得，或者用它来管理你的日常文档。eDiary以时间为主线，以文 字为载体，记录你的心路历程。</description>
+    <releaseNotes>新版 (4.2.5) 有哪些改进？
 
-    <!--<provides>NOT YET IMPLEMENTED</provides>-->
-    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
-    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+* 修正：修正了导出为 docx 文件后无法打开的问题。
+* 修正：修正了无法给表格背景或单元格背景设置 PNG 图片的问题。
+* 修正：修正了无法给单元格指定小于1厘米的宽度的问题。
+* 修正：修正了某些情况下本来同步正常但突然询问用户清空本地数据的问题。
+* 修正：修正了使用某些模板并同步到手机后再编辑导致文章损坏的问题。
+* 修正：修正了给表格增加行后单元格高亮不正确的问题。
+
+
+
+新版 (4.2.4) 有哪些改进？
+
+* 新增：新增暖色调外观 "Warm"。
+* 新增：新增菜单项 "格式 -> 大小写"。
+* 修正：修正了上个版本导致的打开日记本明显变慢的问题。
+* 修正：修正了天气插件中设置地区为上海后退出重进仍然为北京的问题。
+* 修正：修正了AI写作助手中内容润色经常输出为英文的问题。
+* 修正：修正了 "代码块缩进空格数设置为0后，代码框里按回退键弹错" 的问题。
+* 修正：修正了在英文版系统下每日一句乱码的问题。
+* 修正：修正了在英文版系统下皮肤列表中 "默认" 为乱码的问题。
+* 修正：修正了个别节点图标瑕疵。
+* 优化：优化了自动备份逻辑。
+* 调整：首页 "最近的文档" 默认为展开状态。
+
+
+
+新版 (4.2.3) 有哪些改进？
+
+* 修正：修正了网络不好时同步偶尔报错 1010 的问题。
+* 修正：修正了 "安卓版修改带纸纹的文档并上传后电脑端显示为文章损坏" 的问题。
+* 优化：优化同步时 (尤其全量同步时) 下载的速度。
+
+
+
+新版 (4.2.2) 有哪些改进？
+
+* 修正：修正了 64 位版本粘贴富文本时格式不正确的问题。
+* 修正：修正了 64 位版本插入符号时弹错的问题。
+* 修正：修正了无法导入 docx 文件的问题。
+* 修正：修正了自动获取天气时无法获得当前地区的问题。
+* 修正：修正了阅读模式下无法 “向下查找” 的问题。
+* 修正：修正了偶现菜单字体不正常的问题。
+* 修正：修正了在不同分辨率的屏幕间移动窗口时的菜单显示问题。
+* 优化：重新实现了天气自动获取机制。
+
+
+
+新版 (4.2.1) 有哪些改进？
+
+* 修正：修正了 Markdown 编辑器字体不正常的问题。
+* 修正：修正了日记和文档的初始定位的BUG。
+* 修正：完善了日记本文件升级转换逻辑，降低出错概率。
+* 优化：优化了软件自动升级时文件下载的稳定性。
+
+
+
+新版 (4.2) 有哪些改进？
+
+* 新增：AI写作助手的交互方式从对话框调整为右侧面板方式。
+* 新增：AI写作助手中增加 "日记灵感启示"、"日记帮写" 和 "回答问题"。
+* 新增：插入图片前允许用户调整图片大小。
+* 新增：支持收藏常用模板和纸纹，并进行云同步。
+* 新增：完善导入功能，支持从其它日记本文件导入日记、文档、备忘和设置选项。
+* 新增：在账号信息窗口中增加“云端数据管理”入口。
+* 新增：增加了 "程序退出时后台同步，同步完成后再退出" 的功能。
+* 修正：修正了天气信息被截断的问题。
+* 修正：修正了附件名称过长后无法打开的问题。
+* 修正：修正了 "编辑与阅读" 设置页中 "日记" 和 "文档" 标签错位的BUG。
+* 修正：改善了心情图标弹出窗口的外观。
+* 修正：修正了某些情况下在 Markdown 中插入图片无法正常显示的问题。
+* 修正：修正了只能记住窗口大小而无法记住窗口位置的问题。
+* 修正：修正了英文环境下界面多处出现乱码的问题。
+* 修正：修正了英文环境下 Config.ini 乱码的问题。
+* 修正：修正了英文环境下菜单和 Hint 的字体显示不协调的问题。
+* 修正：修正了底部附件栏重命名时 Ctrl+V 和 Delete 键失灵的问题。
+* 修正：修正了云同步时偶现的 "Unexpected end of input" 错误。
+* 修正：尝试修正云同步时偶现的 1010 错误。
+* 调整：在搜索结果中双击定位文章改为单击。
+* 调整：菜单 "文件 -> 压缩日记本文件" 改名为 "优化日记本文件大小"。
+* 优化：左侧节点编辑状态粘贴大段文本时，自动识别并粘贴首行有效文本。
+* 优化：如果当前文章没有关联文章则不显示底端关联栏。
+* 优化：优化界面细节若干。
+
+
+
+新版 (4.1) 有哪些改进？
+
+* 新增：增加了 AI 写作助手。
+* 新增：增加了 "是否自动保存" 的设置项。
+* 新增：增加了 "编辑与阅读切换方式" 的设置项。
+* 新增：编辑器右键菜单增加 "粘贴为纯文本"。
+* 新增：增加皮肤 NeoStyle。
+* 修正：修正了 "在开始页面打开云端日记本时报错" 的问题。
+* 修正：修正了 "退出程序时偶尔弹错" 的问题。
+* 修正：修正了 "插入长度为0的附件后导致云同步弹错1006" 的问题。
+* 修正：修改了 "某些情况下更改代理设置后无法马上生效" 的问题。
+* 修正：删除了模板管理器的编辑器工具条中不必要的按钮。
+* 修正：修正了 "打开日记本后左侧选中的节点有时不在可视区域内" 的问题。
+* 优化：优化了 "选择天气窗口" 中天气图标的展示。
+* 优化：适当增大了双链引用弹出窗口的大小。
+* 优化：优化了皮肤 Win10 的外观。
+* 调整：更改了 "放大/缩小字体" 的默认快捷键。
+* 调整：更改了 "字体对话框" 的默认快捷键。
+
+
+
+新版(4.0 正式版)有哪些改进？
+
+* 新增：增加了对网络代理 (HTTP, SOCKS5) 的支持。
+* 新增：增加了软件自动更新的功能。
+* 新增：增加了在开始页打开云端日记本的功能。
+* 新增：增加了 "后台自动同步" 的设置项。
+* 新增：增加了 "退出程序前询问是否中断同步" 的设置项。
+* 新增：增加了在 "云端数据管理窗口" 中选择指定云端日记本并同步的功能。
+* 修正：修正了节点图标窗口和表情图标窗口的图标大小。
+* 修正：修正了点击工具条缩进按钮没有反应的问题。
+* 修正：修正了输入文字时系统负载高，输入卡顿、延迟等问题。
+* 修正：修正了在 Markdown 阅读模式下双击表格导致弹错的问题。
+* 修正：修正了 "同步后某些新增的备忘项目为灰色" 的问题。
+* 修正：修正了 "切换打开不同的日记本时弹错" 的问题。
+* 修正：修正了 "刚打开主窗口自动定位到的日记为目录时报错" 的问题。
+* 修正：修正了 "节点编辑完毕后鼠标点击编辑器却无法使之获得焦点" 的问题。
+* 修正：修正了 "某些情况下对目录重命名导致日期变为 1899-12-30" 的问题。
+* 修正：修正了 "任务栏在左右两侧时最大化窗口后被裁剪" 的问题。
+* 修正：修正了 "在副显示器上最大化时遮住任务栏" 的问题。
+* 修正：修正了导入文本文件时对 UTF8 编码识别不够准确的问题。
+* 修正：尝试修正本地数据库损坏对云同步的影响。
+* 优化：优化了鼠标拖拽窗口边缘改变大小时的界面渲染性能。
+* 优化：新增备忘时，如果选择指定时间，则默认填入当前时间。
+* 优化：增强了文件修复功能。
+* 调整：对于只读属性的日记本文件，打开时自动尝试修改为非只读属性。
+* 调整：对于未设置密码的日记本，热键隐藏后再恢复显示时不弹出密码输入框。
+
+
+
+新版(4.0 beta6)有哪些改进？
+
+* 新增：增加了 "全部文章默认为可编辑状态" 的设置项。
+* 新增：增加了 "双击编辑器从阅读模式切换到编辑模式" 的设置项。
+* 修正：修正了 "从其它日记本文件导入时提示无法打开" 的问题。
+* 修正：修正了 "从其它日记本文件导入时附件内容不正确" 的问题。
+* 修正：修正了 "即使去掉勾选 '热键隐藏' 也仍然占用热键" 的问题。
+* 修正：修正了 "在标签管理窗口中调整标签顺序后主窗口没有相应调整" 的问题。
+* 修正：修正了 "在主窗口中通过菜单新建日记本报错" 的问题。
+* 修正：修正了菜单 "视图 -> 快捷搜索框" 不起作用的BUG。
+* 修正：修正了重复打开同一个日记本的体验。
+* 修正：修正了无法导入 UTF-8 编码的文本文件的问题。
+* 修正：尝试修正退出程序时中断同步导致卡死的问题。
+* 优化：添加表格的默认宽度从 100% 变更为自动，便于手动调整宽度。
+
+
+
+新版(4.0 beta5)有哪些改进？
+
+* 新增：对数据进行压缩后再上传，极大地节约了云空间。
+* 新增：新增文档置顶功能（右键菜单 "排序->置顶" 或快捷键 Ctrl+Shift+↑）。
+* 新增：增加了 "随机打开一篇日记" 的功能 (菜单 "日记 -> 浏览")。
+* 修正：修正了输入文字时系统负载高，输入卡顿、延迟等问题。
+* 修正：修正了同步过程出现异常导致程序卡死的问题。
+* 修正：修正了无法拆分单元格的问题。
+* 修正：修正了程序启动时因为皮肤文件兼容性问题导致的出错。
+* 修正：修正了 "云同步拉取日记时当前选中节点乱跳" 的问题。
+* 修正：修正了 "同步后当前文章的附件数量没有更新" 的问题。
+* 修正：修正了偶尔报错 "Assertion failure ... line xxx" 的问题。
+* 修正：修正了由于云同步产生大量备份文件的问题。
+* 修正：修正了 Markdown 编辑器可以粘贴 html 的问题。
+* 修正：修正了 "导入文件时受云同步影响报错" 的问题。
+* 修正：修正了用户打开 "示例" 后执行云同步报 10003 错误的问题。
+* 优化：优化了左侧树节点的直接输入搜索体验（同时支持汉字和拼音首字母）。
+
+
+
+新版(4.0 beta4)有哪些改进？
+
+* 新增：新增管理云端数据的入口 （菜单：工具 -> 云端数据管理）。
+* 修正：修正了标签面板中 “全部日记” 和 "全部文档" 的统计数量不正确的问题。
+* 修正：修正了难以逐字选择文本的问题。
+* 修正：修正了 "在搜索结果列表中连续双击不会自动定位到下一个匹配项" 的问题。
+* 修正：修正了 "无法跨样式搜索文本" 的问题。
+* 修正：修正了在表格中键入 "[[" 选择文章并回车后，整个表格消失的问题。
+* 修正：修正了模板背景不生效的问题。
+* 修正：修正了多个用户使用软件自带的 "示例.edf" 进行同步导致冲突报错的问题。
+* 修正：修正了工具条中 "项目符号" 和 "编号" 无法正常使用的问题。
+* 修正：修正了 "改变背景后无法 undo" 的问题。
+* 修正：修正了某些情况下无法修改云服务密码的问题。
+* 修正：修正了密码过长 (超过56位) 导致同步失败等问题。
+* 修正：修正了 "勾选了选择随机外观后导致程序启动时偶尔报错" 的问题。
+* 修正：修正了输入文字期间报错 "Assertion failure ... line 3387" 的问题。
+* 优化：优化双击选择文本的逻辑。
+* 优化：优化内容查找逻辑。
+* 优化：优化切换日记标签的体验。
+
+
+
+新版(4.0 beta3)有哪些改进？
+
+* 修正：修正了误报病毒的问题。
+* 修正：修正了文章列表页面的默认排序。
+* 修正：修正了“切换文档格式后无法粘贴图片”的问题。
+* 修正：完善了“从批量文件导入”所支持的文件名格式。
+* 修正：尝试解决同步时退出程序卡死的问题。
+* 修正：修正了同时插入多个附件可能导致损坏的问题。
+* 调整：恢复了“自动保存时间间隔”设置。
+
+
+
+新版(4.0 beta2)有哪些改进？
+
+* 修正：修正了标签面板折叠后弹错的问题。
+* 修正：修正了设置中 “云同步服务地址” 不生效的问题。
+* 修正：修正了日历页面左侧的勾选框无法记住上次状态的问题。
+* 修正：修正了快速隐藏时每次都弹出提示框的问题。
+* 修正：修正了皮肤文件的兼容性导致弹错的问题。
+* 修正：修正了云同步期间“更改本地密码”等菜单项变灰的问题。
+
+
+
+新版(4.0 beta1)有哪些改进？
+
+* 新增：支持多端数据云同步。
+* 新增：增加对高分辨率屏幕的支持。
+* 新增：重新设计了登录界面和主界面。
+* 新增：增加对 Markdown 的支持。
+* 新增：可以在编辑器中插入简单代码块。
+* 新增：支持双链。(输入 “[[” 激活)
+* 新增：自动保存数据。
+* 修正：某些情况下部分数据损坏后导致大量日记无法显示。
+* 优化：诸多细节优化。
+    </releaseNotes>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
   </files>
 </package>
