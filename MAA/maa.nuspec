@@ -4,7 +4,6 @@
     <id>maa</id>
     <version>4.26.1</version>
     <title>MaaAssistantArknights</title>
-    <authors>Minn</authors>
     <projectUrl>https://maa.plus/</projectUrl>
     <licenseUrl>https://github.com/MaaAssistantArknights/MaaAssistantArknights/blob/dev/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
