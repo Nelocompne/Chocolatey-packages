@@ -1,0 +1,6 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+1699904477-3742_windows_port.zip https://virtualltek.com/community/3-7-4-2-studio/ff-3742-winport/
+sha256: 9018853C67D39C558F8E3AA1A8C403EC36EC2CAEA7EDC3F54E5DB064DB8DCB39
