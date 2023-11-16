@@ -1,60 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- == PACKAGE SPECIFIC SECTION == -->
-    <!-- This section is about this package, although id and version have ties back to the software -->
-    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
-    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
     <id>olive</id>
-    <!-- version should MATCH as closely as possible with the underlying software -->
-    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
-    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>__REPLACE__</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
-    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
-    <!-- ============================== -->
-
-    <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <!-- This section is about the software itself -->
-    <title>olive (Install)</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
-    <!-- projectUrl is required for the community feed -->
+    <version>2023.08.15</version>
+    <title>olive</title>
+    <authors>Olive Studios LLC</authors>
     <projectUrl>https://www.olivevideoeditor.org/</projectUrl>
-    <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
-    <!-- Here is an example using Githack -->
-    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/olive.png</iconUrl>-->
-    <!-- <copyright>Year Software Vendor</copyright> -->
-    <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>olive SPACE_SEPARATED</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->
+    <tags>olive video edit</tags>
+    <description>The world's most open and versatile video editor. </description>
+    <releaseNotes>Hey everyone, I want to apologize for the lack of development blogs this year. I've been working on Olive as much as I can - I fixed a bunch of the issues I mentioned running into in the last update, and have been working on the final pieces of the node infrastructure to make it as versatile as possible, including per-channel manipulation (RGBA, L/R audio, XYZW, etc.) and automatic value conversion (allowing users to do things like plug audio into a float input):
+    
+That being said, regrettably as you might guess from the title, this update isn't going to be very optimistic. Truthfully, it's been getting harder and harder to find the time to work on Olive.
 
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
-    <!-- chocolatey-core.extension - https://community.chocolatey.org/packages/chocolatey-core.extension -->
+If you're new here or haven't read the previous updates, Olive is not my full time job. While I'm extremely passionate about it, and often blown away at the amount of support I receive here, I've always had to juggle it with a lot of other work to make ends meet.
 
-    <!--<provides>NOT YET IMPLEMENTED</provides>-->
-    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
-    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+Olive is an incredibly complex program, and is only getting more complex as it continues to develop. Clearly, one developer spending a limited amount of time on it is not going to be sustainable longterm, and I think we're getting to a point where it isn't even sustainable right now.
+
+For a while I thought I could grind to a stable release and hopefully more funding would come after that, but I'm no longer confident it'll get there in its current situation. One of Olive's goals was that it would be based around the latest and greatest technologies, but it's already starting to fall behind. When Olive began in late 2017, OpenGL was still the de facto universal graphics API, but in that time it's been largely superseded, and we're now very much pushing its limitations. Upgrading it will take a lot of time that I don't know when I'll even have. Olive will never be able to keep up with the newest technologies when it can't even deliver on what those would have been 4-5 years ago.
+
+I've tried my best to ensure I'd have enough time to keep working on Olive, including turning down opportunities that would have made me more financially stable, but I'm not sure how much longer I can keep do that for. Even if Olive could be completed this way, the financial stress has taken a toll on my mental health. If I can't make a living wage from Olive, it may be best for me to take on a full time job that can.
+
+This isn't a request for more community donations/Patrons. While the Patreon has been a huge help over the last few years, I don't think the funding Olive needs can realistically be raised through community donations. I think what Olive really needs is an investment, and more than that, I think Olive should be working directly with production companies so it can better cater to its target demographic (video professionals) in the first place.
+
+I know this is a lot easier said than done, that most organizations just need something that works, and that given the option to invest in something unproven or just buy something off the shelf, most will choose the latter, but I do think it's Olive's only real shot at survival.
+
+If you'd like to help, I'll need suggestions for organizations to reach out to. I have a few places in mind, but you guys will probably know plenty that I don't. Keep in mind that most companies aren't going to accept unsolicited requests for investment or sponsorship, so preferably only suggest places that you know do. Alternatively, if you have any connections to a place that might be interested in Olive, that could be especially helpful. I've written a new page on the website to try succinctly conveying what Olive is trying to do and if you'd like to spread that around too feel free.
+
+If we can't get any interest this way, I'm afraid that might just mean it's time for me to move on from Olive. If that happens, you guys will be the first to know. All of the code will obviously remain up if anyone wants to pick up where I left off.
+
+I sincerely apologize that it has gotten to this point. I never wanted to make a post like this, and I would hate for your generosity to go to waste, but I think it's a decision I have to make. Thank you for understanding and for all your support over the years.</releaseNotes>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
   </files>
 </package>

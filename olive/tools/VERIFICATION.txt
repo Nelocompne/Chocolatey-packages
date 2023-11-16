@@ -1,0 +1,6 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://www.olivevideoeditor.org/download Olive-55eedbfc-Windows-x86_64-Portable.zip Version: 55eedbfc (Sep 24 2023 7:40:23 PM)
+sha256 D73AEE3CB843B8B7CC9D9A234847FFD44B801BAAB1760E36062480364467D2FE
