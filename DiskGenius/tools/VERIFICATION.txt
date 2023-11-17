@@ -1,0 +1,8 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://www.diskgenius.cn/
+sha256
+DG5511508_x86.zip C49CCD0DB52E1B50557D384509E06C14DF4D42BA457C0642A590C8956408B9AD
+DG5511508_x64.zip 8C306AA776D8D13DCB264BCC304C5956BD199851387B282414B769B90BD456F1
