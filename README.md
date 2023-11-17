@@ -9,6 +9,7 @@
 - [x] reitodmj
 - [x] sysinternalssuite
 - [x] sysinternalssuite.nano
+- [x] diskgenius
 - [ ] aegisub
 - [ ] alist
 - [ ] balenaetcher
