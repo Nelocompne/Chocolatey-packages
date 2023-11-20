@@ -2,5 +2,5 @@
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
-1699904477-3742_windows_port.zip https://virtualltek.com/community/3-7-4-2-studio/ff-3742-winport/
-sha256: 9018853C67D39C558F8E3AA1A8C403EC36EC2CAEA7EDC3F54E5DB064DB8DCB39
+1700266730-3743_windows_port.zip https://virtualltek.com/community/ff-releases-3-7-4-3/ff-3743-winport/
+sha256: 79DA282109113AEAD5E0D5BC87604B0C5D6B5219B0221C70049E8FA1F622E716

@@ -1,17 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Get-ToolsLocation)\$env:ChocolateyPackageName"
 
-$fileLocation   = 'tools\1699904477-3742_windows_port.zip'
-$fileLocation64 = 'tools\1699904477-3742_windows_port.zip'
+$fileLocation   = 'tools\1700266730-3743_windows_port.zip'
+$fileLocation64 = 'tools\1700266730-3743_windows_port.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   file          = $fileLocation
   file64        = $fileLocation64
-  checksum      = '9018853C67D39C558F8E3AA1A8C403EC36EC2CAEA7EDC3F54E5DB064DB8DCB39'
+  checksum      = '79DA282109113AEAD5E0D5BC87604B0C5D6B5219B0221C70049E8FA1F622E716'
   checksumType  = 'sha256'
-  checksum64    = '9018853C67D39C558F8E3AA1A8C403EC36EC2CAEA7EDC3F54E5DB064DB8DCB39'
+  checksum64    = '79DA282109113AEAD5E0D5BC87604B0C5D6B5219B0221C70049E8FA1F622E716'
   checksumType64= 'sha256'
 }
 

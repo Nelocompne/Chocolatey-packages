@@ -2,19 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ffs</id>
-    <version>3.7.4.2</version>
+    <version>3.7.4.3</version>
     <title>FighterFactoryStudio</title>
     <authors>virtualltek</authors>
     <projectUrl>https://virtualltek.com/fighter-factory/</projectUrl>
     <tags>fighterfactorystudio SPACE_SEPARATED</tags>
     <description>Create content for multiple 2D game engines faster and easier, on multiple platforms.</description>
-    <releaseNotes>Changes:
+    <releaseNotes>Another small bug fix patch is live.
 
-See Fighter Factory Studio 3.7.4.1 for base features;
-Fixed a crash happening when you comment or remove [Group] lines in text editors;
-Fixed commented out files being loaded while opening a project;
-Adjusted the comment line function to batch all affected lines into a single undo command;
-Added drag and drop reordering functionality to layers in the Image Editor (can't drop to the end).</releaseNotes>
+Changes:
+Fixed the Native Painter mode not working properly (affects Offset Viewer and Throw Creator too);
+Added the missing sctrl template for RemapPal;
+Added a new Colorset by Jesuszilla.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
