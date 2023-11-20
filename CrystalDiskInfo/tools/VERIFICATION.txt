@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://sourceforge.net/projects/crystaldiskinfo/files/
+
+CrystalDiskInfo9_1_1.zip sha256 B5EE4C97CDB7CAE31BA1D6636646D02471457852B6855ECC81587D0A05460D62
