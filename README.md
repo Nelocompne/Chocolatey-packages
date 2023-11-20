@@ -15,7 +15,7 @@
 - [ ] balenaetcher
 - [ ] calibre
 - [ ] coodesker
-- [ ] crystaldiskinfo
+- [x] crystaldiskinfo
 - [ ] crystaldiskmark
 - [ ] filezilla
 - [ ] foobar2000
