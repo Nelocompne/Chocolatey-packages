@@ -16,6 +16,8 @@
 - [ ] calibre
 - [ ] coodesker
 - [x] crystaldiskinfo
+  - [x] crystaldiskinfo-kureikei
+  - [x] crystaldiskinfo-shizuku
 - [ ] crystaldiskmark
 - [ ] filezilla
 - [ ] foobar2000
