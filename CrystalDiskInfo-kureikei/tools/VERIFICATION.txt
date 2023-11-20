@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://sourceforge.net/projects/crystaldiskinfo/files/
+
+CrystalDiskInfo9_1_1KureiKei.zip sha256 3A3F62783DC65B5D173C10DF96C843DF0BB56E33C4C513D461C5F63F8E75D4E3

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>crystaldiskinfo-kureikei</id>
+    <version>9.1.1</version>
+    <title>CrystalDiskInfo KureiKei.ver</title>
+    <authors>crystalmark</authors>
+    <projectUrl>https://crystalmark.info/en/software/crystaldiskinfo/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/crystaldiskinfo/</projectSourceUrl>
+    <tags>crystaldiskinfo kureikei diskinfo</tags>
+    <description>A HDD/SSD utility software which supports a part of USB, Intel RAID and NVMe.</description>
+    <releaseNotes>[2023/07/12] CrystalDiskInfo 9.1.1 Release!!
+AMD_RC2t7 (by Gakuto Matsumura) included to support AMD RAIDXpert2.
+[2022/10/30] CrystalDiskMark 8.0.4c Release!!
+8.0.4c is only an update of the language file, and the executable file is unchanged from 8.0.4.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
