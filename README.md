@@ -60,7 +60,7 @@
 - [ ] ventoy
 - [ ] virtualbox
 - [ ] windterm
-- [ ] winrar-keygen
+- [x] winrar-keygen
 - [ ] winscp
 - [ ] wireguard
 - [ ] xiaowan
