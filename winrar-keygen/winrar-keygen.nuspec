@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winrar-keygen</id>
+    <version>2.1.2</version>
+    <title>winrar-keygen</title>
+    <authors>bitcookies</authors>
+    <projectUrl>https://github.com/bitcookies/winrar-keygen</projectUrl>
+    <licenseUrl>https://github.com/bitcookies/winrar-keygen/blob/master/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/bitcookies/winrar-keygen</projectSourceUrl>
+    <tags>winrar-keygen winrar keygen</tags>
+    <description>Principle of WinRAR key generation. </description>
+    <releaseNotes>Update
+
+    Lock Github Actions virtual environment for windows-2019 🔒
+    Optimize WinRAR Keygen's help tips 💡
+    Update README and recommend use Github Actions with Secrets
+    Update License Date
+
+Attention
+
+    This repository performs a git rebase operation on all commits, which may cause some unknown errors. If you encounter an unsolvable merge error, you can delete the current fork and fork again.
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

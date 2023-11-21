@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://github.com/bitcookies/winrar-keygen/releases/tag/v2.1.2
+tools\x64\winrar-keygen.exe sha256 0E4B425854D885A926BE699C28E002112409D571D06A88BB9E0B501AF0F6EBF9
+tools\x86\winrar-keygen.exe sha256 011DCF96F06E3F734FF7960C3302294F90888CDB64EEA8CAFA415EDB525CBD89
