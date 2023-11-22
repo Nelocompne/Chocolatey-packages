@@ -1,4 +1,6 @@
 *.nupkg
 bob/
 *.zip
+*.rar
+*.7z
 *.exe
