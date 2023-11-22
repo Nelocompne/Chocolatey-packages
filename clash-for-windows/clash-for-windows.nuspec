@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cfw</id>
+    <version>0.20.39</version>
+    <title>clash-for-windows (Install)</title>
+    <authors>Fndroid</authors>
+    <projectUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectUrl>
+    <tags>clash-for-windows cfw</tags>
+    <description>a clash GUI</description>
+    <releaseNotes>v0.20.39
+
+Add new options in TUN Mode Settings dialog:
+DNS IPv6 - dns.ipv6
+Default Nameservers -dns.default-nameserver
+Nameserver Policy - dns.nameserver-policy
+Add Update Through Built-in Proxy Setting: Added a setting to update profiles through the built-in Clash proxy.
+Hint Adjustment: Made adjustments to hints.
+Miscellaneous: Addressed and fixed various minor glitches.
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

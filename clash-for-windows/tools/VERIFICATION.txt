@@ -1,0 +1,9 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://github.com/Fndroid/clash_for_windows_pkg
+原库作者已删除，此处保留最终版本
+
+Clash.for.Windows.Setup.0.20.39.ia32.exe 951E79041D6EB815EFCC2F9171883F67A635E04274CE69A5D202F7FEE3872F63
+Clash.for.Windows.Setup.0.20.39.exe 477274CE22D30559AE5DF8D41B0ADB0A8461BE0501D26A0500452AB68C650608
