@@ -19,6 +19,7 @@
 - [x] crystaldiskinfo
   - [x] crystaldiskinfo-kureikei
   - [x] crystaldiskinfo-shizuku
+  - [x] crystaldiskinfo-aoi
 - [ ] crystaldiskmark
 - [ ] filezilla
 - [ ] foobar2000
