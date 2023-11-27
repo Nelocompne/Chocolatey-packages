@@ -63,6 +63,6 @@
 - [ ] virtualbox
 - [ ] windterm
 - [x] winrar-keygen
-- [ ] winscp
+- [x] winscp
 - [ ] wireguard
 - [ ] xiaowan

@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+https://winscp.net/eng/download.php
+WinSCP-6.1.2.msi
+sha256 31759860A6B0C179D841857FE1344A990A576313379C309EB2E07941C4E8CB93

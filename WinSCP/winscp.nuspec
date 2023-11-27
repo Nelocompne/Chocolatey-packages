@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winscp</id>
+    <version>6.1.2</version>
+    <title>WinSCP (Install)</title>
+    <authors>WinSCP</authors>
+    <projectUrl>https://winscp.net/eng/download.php</projectUrl>
+    <tags>winscp sftp ftp</tags>
+    <description>WinSCP is an open source free SFTP client, FTP client, WebDAV client, S3 client and SCP client and file manager for Windows. Its main function is file transfer between a local and a remote computer. Beyond this, WinSCP offers scripting and basic file manager functionality.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
