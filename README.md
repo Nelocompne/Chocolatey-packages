@@ -14,7 +14,7 @@
 - [ ] alist
 - [ ] balenaetcher
 - [ ] calibre
-- [ ] cfw
+- [x] cfw
 - [ ] coodesker
 - [x] crystaldiskinfo
   - [x] crystaldiskinfo-kureikei
