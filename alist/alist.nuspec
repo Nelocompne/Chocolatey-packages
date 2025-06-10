@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>alist</id>
+    <version>3.45.0</version>
+    <packageSourceUrl>https://github.com/Nelocompne/Chocolatey-packages/tree/master/alist</packageSourceUrl>
+    <title>Alist</title>
+    <authors>xhofe</authors>
+    <projectUrl>https://alist.nn.ci</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg</iconUrl>
+    <licenseUrl>https://github.com/alist-org/alist/blob/main/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/alist-org/alist</projectSourceUrl>
+    <docsUrl>https://alist.nn.ci</docsUrl>
+    <tags>alist webdav</tags>
+    <summary>A file list program that supports multiple storages</summary>
+    <description>A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs.
+
+🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+</description>
+    <releaseNotes>#### Program
+* [Changelog](https://github.com/alist-org/alist/releases)
+* 对Win7/Server2008的支持持续到该版[v3.29.1](https://github.com/alist-org/alist/releases/tag/v3.29.1)，[详情](https://github.com/golang/go/issues/64622)
+* 2024-11 Version: v3.39.2
+* 2024-12 Version: v3.41.0
+* 2025-05 Version: v3.45.0
+
+#### Package
+
+* Automatically built and uploaded by [Minn](https://community.chocolatey.org/profiles/Kawii4minn)
+* Package not up-to-date after a few days ? [Create an issue](https://github.com/Nelocompne/Chocolatey-packages/issues/new/choose)</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
