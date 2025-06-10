@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url   = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.5/BaiduPCS-Go-v3.9.5-windows-x86.zip'
-$url64 = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.5/BaiduPCS-Go-v3.9.5-windows-x64.zip'
+$url   = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-x86.zip'
+$url64 = 'https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-x64.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,9 +10,9 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   url64bit      = $url64
-  checksum      = 'bceb62e9c946da28ab9cae3215563105ffca99f9f996a91ed155710e7969623f'
+  checksum      = 'D14C81AA4B035E4A458C52BE8D23A0F593C025CF7B4D12DF713C493566F4A86E'
   checksumType  = 'sha256'
-  checksum64    = '9e94f7c14ca795280d52966fcc9bf1920dc6967c6c7cacf0ce6c882834a7564a'
+  checksum64    = '2C8F4728AC29153F71187A26C85D5BE0E2419A64D591A74F821D3C57622EEB81'
   checksumType64= 'sha256'
 }
 

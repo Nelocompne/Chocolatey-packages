@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>baidupcs-go</id>
-    <version>3.9.5</version>
+    <version>3.9.7</version>
     <packageSourceUrl>https://github.com/Nelocompne/Chocolatey-packages/tree/master/baidupcs-go</packageSourceUrl>
     <title>baidupcs-go</title>
     <authors>qjfoidnh</authors>
