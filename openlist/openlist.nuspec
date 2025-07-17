@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>openlist</id>
+    <version>4.0.0</version>
+    <packageSourceUrl>https://github.com/Nelocompne/Chocolatey-packages/tree/master/openlist</packageSourceUrl>
+    <title>Openlist</title>
+    <authors>OpenListTeam</authors>
+    <projectUrl>https://oplist.org/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/OpenListTeam/Logo/main/logo.svg</iconUrl>
+    <licenseUrl>https://github.com/OpenListTeam/OpenList/blob/main/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/OpenListTeam/OpenList</projectSourceUrl>
+    <docsUrl>https://docs.oplist.org/</docsUrl>
+    <tags>openlist file list</tags>
+    <summary>A new AList Fork to Anti Trust Crisis</summary>
+    <description>🗂️ A file list program that supports multiple storage, powered by Gin and Solidjs.
+
+OpenList is a resilient, long-term governance, community-driven fork of AList — built to defend open source against trust-based attacks.
+</description>
+    <releaseNotes>#### Program
+* [Changelog](https://github.com/OpenListTeam/OpenList/releases)
+
+#### Package
+
+* Automatically built and uploaded by [Minn](https://community.chocolatey.org/profiles/Kawii4minn)
+* Package not up-to-date after a few days ? [Create an issue](https://github.com/Nelocompne/Chocolatey-packages/issues/new/choose)</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
